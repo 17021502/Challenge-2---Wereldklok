@@ -1,0 +1,167 @@
+@font-face{
+	font-family: digital;
+	src:url(fonts/digital-7.ttf);
+}
+
+
+
+@media only screen and (min-width: 569px) {
+
+body{
+	background-position: relative;
+	background-image: left 10%;
+	  grid-template-columns: 1fr 1fr 1fr;
+	  grid-template-areas: 
+	  	"header header"
+        "main main"
+        "klok klok";
+}
+
+
+.header {
+	background-color: rgb(7, 57, 93);
+}
+
+.logodiv {
+	margin-top: -20px;
+}
+
+.logo {
+	width: 250px;
+	display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -10px;
+}
+
+
+main{
+	margin-left: 15%;
+	
+}
+
+.logo{
+
+}
+
+#klok{
+	width: 40%;
+	height: 150px;
+	padding-top: 50px;
+	padding-right: 70px;
+	padding-left: 70px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 90px;
+	font-family: digital;
+  border: 5px solid black;
+  border-radius: 80px;
+  margin-left: 10%;
+  margin-right: 10px;
+}
+
+.tijdplaatje {
+ margin-left: 22%;
+	width: 40%;
+	 background-position: center; 
+	height: 200px;
+	background-size: 240px;
+  border: 5px solid black;
+  border-radius: 60px;
+
+}
+
+
+.footerdiv {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   margin-left: -10px;
+   margin-right: -10%;
+   height:60px;   /* Height of the footer */
+   color: white;
+   padding-top: 10px;
+
+   text-align: center;
+   background-color: #0e1112;
+}
+
+
+
+
+
+@media only screen and (min-width: 820px) {
+
+body{
+	background-position: relative;
+	background-image: left 10%;
+	  grid-template-columns: 1fr 1fr 1fr;
+	  grid-template-areas: 
+	  	"header header"
+        "main main"
+        "klok klok";
+}
+
+
+.header {
+	background-color: rgb(7, 57, 93);
+}
+
+.logodiv {
+	margin-top: -20px;
+}
+
+.logo {
+	width: 250px;
+	display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -10px;
+}
+
+
+main{
+	margin-left: 15%;
+	
+}
+
+
+#klok{
+	width: 40%;
+	height: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+margin-left: 13%;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 110px;
+	font-family: digital;
+  border: 5px solid black;
+  border-radius: 10px;
+  
+}
+
+.tijdplaatje {
+ margin-left: 30%;
+	width: 200px;
+	 background-position: center; 
+	height: 200px;
+	background-size: 240px;
+	  border: 5px solid black;
+  border-radius: 10px;
+
+}
+
+.footerdiv {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   margin-left: -10px;
+   margin-right: -10%;
+   height:60px;   /* Height of the footer */
+   color: white;
+   padding-top: 10px;
+
+   text-align: center;
+   background-color: #0e1112;
+}
