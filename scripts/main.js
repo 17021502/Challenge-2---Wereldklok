@@ -22,19 +22,19 @@ var time = new Date()
 	if (sec < 10)
 		sec = "0" + sec;
 
-if (sec < 20 ) {
+if (uur < 6 ) {
 	backgroundNacht();
 	}
 
-	else if (sec > 20 ) {
+	else if (uur > 6 ) {
     backgroundZonsopgang();
 	}  
 
-	if (sec > 35 ) {
+	if (uur > 12 ) {
 	backgroundMiddag();
 	}
 
-	if (sec > 45 ) {
+	if (uur > 18 ) {
 	backgroundZonsondergang();
 	} 
 
